@@ -14,7 +14,7 @@ options = ["Home", "Data Visualization", "Advanced Analysis"]
 choice = st.sidebar.radio("Go to", options)
 
 # Path to the dataset
-file_path = r"D:\1.DA Projects\student_perfomance\Cleaned_Students_Performance.csv"
+file_path = r"D:\1.DA Projects\Student-Performance-Analysis-Visualization\Cleaned_Students_Performance.csv"
 
 # Read the dataset
 df = pd.read_csv(file_path)
